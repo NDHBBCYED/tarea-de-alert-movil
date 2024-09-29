@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.musicalg.fragments.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.example.musicalg.fragments.RegistroFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_registro" />
+
+    <!-- Agregar el destino para el fragmento oculto de bienvenida -->
+    <fragment
+        android:id="@+id/bienvenidaFragment"
+        android:name="com.example.musicalg.fragments.BienvenidaFragment"
+        android:label="Bienvenida"
+        tools:layout="@layout/layout_bienvenida" />
+
+    <fragment
+        android:id="@+id/cancionesFragment"
+        android:name="com.example.musicalg.fragments.CancionesFragment"
+        android:label="Canciones"
+        tools:layout="@layout/fragment_canciones" />
+
+    <fragment
+        android:id="@+id/contactoFragment"
+        android:name="com.example.musicalg.fragments.ContactoFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contacto" />
+
+</navigation>
+

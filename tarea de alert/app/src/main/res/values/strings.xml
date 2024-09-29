@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicalG</string>
+    <string name="textview2_link">- Nic D - Fine Apple</string>
+    <string name="textview3_link">- SZA - Kill Bill</string>
+    <string name="textview2_url">https://youtu.be/ZA7-bTUBRNk</string>
+    <string name="textview3_url">https://youtu.be/MSRcC626prw</string>
+</resources>
